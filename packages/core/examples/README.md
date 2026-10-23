@@ -99,6 +99,7 @@ Hooking the framework up to outside-the-box tooling. Contribution rules, includi
 | [`integrations/mcp-github`](integrations/mcp-github.ts) | An MCP server's tools exposed to an agent via `connectMCPTools()`. |
 | [`integrations/mcp-bilig-workpaper`](integrations/mcp-bilig-workpaper.ts) | Bilig WorkPaper MCP tools for formula readback, recalculation, and persisted workbook JSON. |
 | [`integrations/mcp-open-design`](integrations/mcp-open-design.ts) | Batch fan-out over an MCP server's async jobs: N Open Design runs in parallel via `runTasks()`, each polled to completion by code. |
+| [`integrations/mcp-keenable-search`](integrations/mcp-keenable-search.ts) | Keyless Keenable web search MCP tools shared by two parallel researchers, then a writer task that cites their URLs. |
 | [`integrations/external-agent-acp`](integrations/external-agent-acp.ts) | External coding agents (Gemini CLI, Claude Code) as team members via the `acp` backend. |
 | [`integrations/external-agent-process`](integrations/external-agent-process.ts) | Deterministic local subprocesses as team members via the `process` backend. |
 | [`integrations/with-engram/`](integrations/with-engram/) | Engram shared memory as a `MemoryStore` plus an agent toolkit (vendor integration). |
