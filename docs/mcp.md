@@ -239,3 +239,6 @@ offline.
   MCP tools looked up by their prefixed names and wrapped in a custom tool, so
   deterministic TypeScript drives an asynchronous job while `runTasks()` fans
   several of them out in parallel.
+- [`integrations/mcp-keenable-search`](../packages/core/examples/integrations/mcp-keenable-search.ts):
+  a hosted Streamable HTTP server reached through a pinned stdio bridge, with
+  one connection's tools handed to two parallel agents through `customTools`.

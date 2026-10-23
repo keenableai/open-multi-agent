@@ -515,6 +515,17 @@
       "level": "advanced"
     },
     {
+      "id": "mcp-keenable-search",
+      "path": "integrations/mcp-keenable-search.ts",
+      "title": "MCP Keenable Web Search",
+      "description": "Share keyless Keenable web search MCP tools across parallel researchers, then write a brief with cited URLs.",
+      "section": "goal",
+      "goal": "connect-your-stack",
+      "capabilities": ["mcp", "custom-tools", "run-tasks", "task-dependencies", "parallel-execution"],
+      "format": "script",
+      "level": "intermediate"
+    },
+    {
       "id": "with-engram",
       "path": "integrations/with-engram",
       "title": "Engram Memory",
